@@ -1,0 +1,53 @@
+@mixin flex-container { // set up all the flex magic
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	> div { // all child elements are flexboxes 
+		-webkit-flex: 1 1 auto;
+		flex: 1 1 auto;
+	}
+	> div:nth-child(1) { width: 20%; } // the first child is yeh wide
+	> div:nth-child(2) { width: 50%; } // the middle child is yeh wide
+	> div:nth-child(3) { width: 30%; } // the last child is yeh wide
+}
+
+
+/**
+ * Site header
+ */
+.site-header {
+	min-height: 3.5rem; 
+	@include flex-container;
+	.col-1 { background-color: $blue-green; }
+	.wrapper { background-color: $blue; }
+	.col-3 { background-color: $orange-blue; }
+}
+
+/**
+ * Page content
+ */
+
+.page-content {
+	@include flex-container;
+	padding-bottom: $footer-height; // ensures content clears the fixed footer
+	.col-1 { background-color: $green; }
+	.col-3 { background-color: $orange; }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+	position: fixed; // stay in one position all the time
+	bottom: 0; // stay at the bottom
+	right: 0; // stay all the way to the right
+	left: 0; /// also stay all the way to the left (stretch to fit)
+	max-height: $footer-height;
+	@include flex-container;
+	background-color: rgba($yellow, 0.8);
+	.col-1 { background-color: $green-yellow; }
+	.col-3 { background-color: $yellow-orange; }
+}

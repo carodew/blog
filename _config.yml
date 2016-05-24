@@ -1,0 +1,9 @@
+# Site settings
+title: My Awesome Mental Illness Blog
+description: > # this means to ignore newlines until "baseurl:"
+  I was diagnosed with a mental illness in 2009. My journey with my first therapist was one of the most profound I've ever had.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
