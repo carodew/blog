@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Awesome Mental Illness Blog</title>
-    <description>I was diagnosed with a mental illness in 2009. My journey with my first therapist was one of the most profound I&#39;ve ever had.
-</description>
+    <title>An experiment in openness</title>
+    <description></description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 May 2016 15:57:51 -0400</pubDate>
-    <lastBuildDate>Tue, 24 May 2016 15:57:51 -0400</lastBuildDate>
+    <pubDate>Mon, 30 May 2016 11:04:17 -0400</pubDate>
+    <lastBuildDate>Mon, 30 May 2016 11:04:17 -0400</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -26,19 +25,6 @@
         <link>http://yourdomain.com/2015/02/16/jelly-croissant.html</link>
         <guid isPermaLink="true">http://yourdomain.com/2015/02/16/jelly-croissant.html</guid>
         
-        
-      </item>
-    
-      <item>
-        <title>Test Love 1</title>
-        <description>&lt;p&gt;I love the feeling when a yoga instructor adjusts my pose that allows for a deeper release or experience of that post. I love the gentle touch of another human being as well as the shifted experience of the pose.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 10 Dec 2014 10:43:34 -0500</pubDate>
-        <link>http://yourdomain.com/loves/2014/12/10/yoga-adjustments.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/loves/2014/12/10/yoga-adjustments.html</guid>
-        
-        
-        <category>loves</category>
         
       </item>
     
